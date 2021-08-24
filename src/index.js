@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <h1> Hello!</h1>
+    <h1> Hello! Welcome to Cardathon'21</h1>
   </React.StrictMode>,
   document.getElementById('root')
 );

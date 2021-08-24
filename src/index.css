@@ -5,8 +5,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right,rgb(162,7,182),rgb(251,255,0));
 }
+h1{
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    text-align: center;
+}
+.input-group{
+  background-color: rgba(135, 170, 241, 0.925);
+  display: inline-block;
+  height:50%;
+  width:50%;
+  top:250px;
+  bottom:250px;
+  left:350px;
+  right: 100px;
+  display:flex;
+  
 
+}
+.container-fluid{
+  background-color: rgb(205, 219, 226);
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
