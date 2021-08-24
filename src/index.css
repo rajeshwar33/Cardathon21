@@ -5,13 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(to right,rgb(162,7,182),rgb(251,255,0));
+  background: linear-gradient(to right,rgb(106, 207, 238),rgb(166, 231, 122));
 }
-h1{
+h4{
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
     text-align: center;
+    color:white;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+h5{
+  top: 100;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    text-align: center;
+    color:white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .input-group{
   background-color: rgba(135, 170, 241, 0.925);
   display: inline-block;
@@ -25,8 +38,25 @@ h1{
   
 
 }
+.table{
+  height:95%;
+  width:95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2{
+  text-align: center;
+  color:whitesmoke;
+  
+}
+h6{
+  text-align: right;
+  color: whitesmoke;
+}
 .container-fluid{
   background-color: rgb(205, 219, 226);
+  text-: white;
+
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

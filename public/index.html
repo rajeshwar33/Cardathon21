@@ -30,28 +30,30 @@
     <title>Cardathon</title>
   </head>
   <body>
+    
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Home</a>
+        <a class="navbar-brand" href="#">Overview</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Menu</a>
+              <a class="nav-link navbar-brand" aria-current="page" href="#">Transactions</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Settings</a>
+              <a class="nav-link navbar-brand" href="#">Statements</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle navbar-brand" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 More
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action1</a></li>
-                <li><a class="dropdown-item" href="#">Action2</a></li>
+                <li><a class="dropdown-item" href="#">Payments</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Logout</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="#">Help?</a></li>
               </ul>
@@ -67,19 +69,59 @@
         </div>
       </div>
     </nav>
-    
-    <div class="input-group">
+    <h2>Bank of Millenials</h2>
+    <h6>Last login: 24th Jun'21</h6>
+    <!-- <div class="input-group">
       
       <span class="input-group-text" >Current bill amount</span>
+      <span class="input-group-text" >Current bill amount</span>
+      <span class="input-group-text" >Current bill amount</span>
       <span class="input-group-text">$</span>
-      <input type="text" class="form-control" placeholder="Enter your current bill amount" aria-label="Dollar amount (with dot and two decimal places)">
-    </div>
+     <input type="text" class="form-control" placeholder="Enter your current bill amount" aria-label="Dollar amount (with dot and two decimal places)">
+  </div>
     <div class="input-group">
      
       <span class="input-group-text">Your child's savings</span>
       <span class="input-group-text">$</span>
       <input type="text" class="form-control" placeholder="Amount transferred to your child's savings" aria-label="Dollar amount (with dot and two decimal places)">
-    </div>
+    </div> --> 
+    <h4>Welcome back, Joe M Walker</h4>
+    <h5>Account and Savings Summary:</h5>
+    <table class="table table-success table-hover">
+      <thead>
+        <tr>
+          <th scope="col">Account No.</th>
+          <th scope="col">Association</th>
+          <th scope="col">Name</th>
+          <th scope="col">Available Balance</th>
+          <th scope="col">Account Details</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+         
+          <th>425769XXXXXX0001</th>
+          <td>Primary</td>
+          <td>Joe M Walker</td>
+          <td>$114,000</td>
+          <td><button type="button" class="btn btn-info">View</button></td>
+        </tr>
+
+        </tbody>
+        </tbody>
+        
+        <tr>
+          <th>425769XXXXXX2011</th>
+          <td>Beneficial</td>
+          <td>Junior Joe Walker</td>
+          <td>$200.40</td>
+          <td><button type="button" class="btn btn-info">View</button></td>
+        </tr>
+        
+      </tbody>
+    </table>
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div> 
   
